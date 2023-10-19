@@ -1,0 +1,63 @@
+body {
+    font-family: 'Atkinson Hyperlegible';
+    background: lightgrey
+  }
+
+h1 {
+    color: navy
+  }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .row {
+      flex-direction: row;
+    }
+  
+    .column-left {
+      width: 25%;
+      padding: 10px;
+      background-color: rgb(76, 65, 65);
+    }
+  
+    .column-right {
+      width: 75%;
+      padding: 10px;
+    }
+  }
+
+
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
